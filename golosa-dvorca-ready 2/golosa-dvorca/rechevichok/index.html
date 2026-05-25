@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Голоса дворца — Подготовка к школе «Речевичок»</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f4f6fb, #e9eef7);
+      color: #1f2937;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 540px;
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 30px;
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.12);
+      text-align: center;
+    }
+
+    .label {
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #4f46e5;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 32px;
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin: 10px 0 0;
+      font-size: 20px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    .description {
+      margin: 24px 0;
+      font-size: 17px;
+      line-height: 1.6;
+      color: #374151;
+    }
+
+    .audio-box {
+      margin-top: 24px;
+      padding: 18px;
+      border-radius: 22px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+    }
+
+    audio {
+      width: 100%;
+      margin-top: 12px;
+    }
+
+    .hint {
+      margin-top: 14px;
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .footer {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+
+    @media (max-width: 420px) {
+      .card {
+        padding: 24px 20px;
+        border-radius: 24px;
+      }
+
+      h1 {
+        font-size: 28px;
+      }
+
+      h2 {
+        font-size: 18px;
+      }
+
+      .description {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="card">
+    <div class="label">Голоса дворца</div>
+
+    <h1>Подготовка к школе «Речевичок»</h1>
+    <h2>Репетиция за дверью</h2>
+
+    <p class="description">
+      За этой дверью тренируют язычки:<br>кто-то тараторит скороговорки, кто-то читает стихи,<br>а кто-то рассказывает, что видел вчера во дворе.<br>Малыши учатся говорить чётко, понятно и с настроением!<br>Слышите?
+    </p>
+
+    <div class="audio-box">
+      <strong>Послушайте голос этого кабинета</strong>
+
+      <audio controls preload="metadata">
+        <source src="audio.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает аудиоплеер.
+      </audio>
+
+      <p class="hint">
+        Нажмите на кнопку для воспроизведения.
+      </p>
+    </div>
+
+    <div class="footer">
+      Дворец · аудиопроект
+    </div>
+  </main>
+</body>
+</html>
