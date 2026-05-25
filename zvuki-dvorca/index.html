@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Звуки дворца</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f4f6fb, #e9eef7);
+      color: #1f2937;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 560px;
+      background: #ffffff;
+      border-radius: 28px;
+      padding: 30px;
+      box-shadow: 0 20px 70px rgba(0, 0, 0, 0.12);
+      text-align: center;
+    }
+
+    .label {
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #4f46e5;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 0 24px;
+      font-size: 17px;
+      line-height: 1.55;
+      color: #4b5563;
+    }
+
+    .links {
+      display: grid;
+      gap: 12px;
+      text-align: left;
+    }
+
+    .link {
+      display: block;
+      padding: 16px 18px;
+      border-radius: 18px;
+      background: #f9fafb;
+      border: 1px solid #e5e7eb;
+      color: #1f2937;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .link:hover {
+      background: #eef2ff;
+      border-color: #c7d2fe;
+    }
+
+    .footer {
+      margin-top: 26px;
+      padding-top: 18px;
+      border-top: 1px solid #e5e7eb;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="label">Аудиопроект</div>
+    <h1>Звуки дворца</h1>
+    <p>
+      Выберите кабинет и послушайте, что происходит за дверью.
+    </p>
+
+    <div class="links">
+      <a class="link" href="./svoya-kompaniya/">Театр песни «Своя компания»</a>
+      <a class="link" href="./tempo-primo/">Ансамбль баянистов «Темпо-Примо»</a>
+      <a class="link" href="./mechta/">Ансамбль классического танца «Мечта»</a>
+      <a class="link" href="./estradnye-miniatyury/">Театр эстрадных миниатюр</a>
+      <a class="link" href="./tyuz/">Театр юного зрителя</a>
+      <a class="link" href="./rechevichok/">Подготовка к школе «Речевичок»</a>
+      <a class="link" href="./vysokaya-nota/">Хор «Высокая нота»</a>
+    </div>
+
+    <div class="footer">
+      Дворец · аудиопроект
+    </div>
+  </main>
+</body>
+</html>
